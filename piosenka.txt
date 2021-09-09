@@ -2,16 +2,16 @@ refren-1
  
 zwrotka-1 
 
-refren-2
+refren-1
  
 zwrotka-2
  
-refren-3
+refren-1
  
 zwrotka-3
  
-refren-4
+refren-1
 
 zwrotka-4
 
-refren-5
+refren-1
