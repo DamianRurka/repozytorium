@@ -305,3 +305,145 @@ Date:   Thu Sep 9 16:57:10 2021 +0200
 diff --git a/piosenka.txt b/piosenka.txt
 new file mode 100644
 index 0000000..e69de29
+commit 4a3379a82e5eaf59aeefdbc13c3306072918d2f4
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 18:39:31 2021 +0200
+
+    cofniÄ™cie usuniÄ™cia jednej lini w pliku refren-1 i posprzÄ…tanie baÅ‚aganu , udaÅ‚o siÄ™ :)
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 7b866c2..6a827cd 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1 +1,2 @@
+ Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta, Marta,
++ tylko Marta bez niej ¿ycie traci smak.
+\ No newline at end of file
+
+commit dec06f549220d07959b785821bdf286f529d745d
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:53:03 2021 +0200
+
+    usunÄ…Å‚em 1linie tekstu w pliku refren-1
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 6a827cd..7b866c2 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1,2 +1 @@
+ Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta, Marta,
+- tylko Marta bez niej ¿ycie traci smak.
+\ No newline at end of file
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/refren-1.txt b/refren-1.txt
+new file mode 100644
+index 0000000..6a827cd
+--- /dev/null
++++ b/refren-1.txt
+@@ -0,0 +1,2 @@
++Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta, Marta,
++ tylko Marta bez niej ¿ycie traci smak.
+\ No newline at end of file
+commit 03c61a22f531179f21fdb4dc3bc2ac9c443e493a
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:33:45 2021 +0200
+
+    przeniesienie zwrotki1 i zastÄ…pienienazwÄ… zwrotka-1
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+index e69de29..9677798 100644
+--- a/zwrotka-1.txt
++++ b/zwrotka-1.txt
+@@ -0,0 +1,2 @@
++1.Gdzieœ pozna³em tê dziewczynê œliczne cia³o,
++ w oczach miód dziewczê Marta ma na imiê dajê s³owo, istny cud. 
+\ No newline at end of file
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..e69de29
+commit 8007378c13e333d2bb291e1434c3c82f9edb8066
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:38:49 2021 +0200
+
+    przeniesienie zwrotki2 i zastÄ…pienie nazwÄ… zwrotka-2
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+index e69de29..83712aa 100644
+--- a/zwrotka-2.txt
++++ b/zwrotka-2.txt
+@@ -0,0 +1,2 @@
++2.Gdy j¹ proszê o spotkanie ona ze mnie œmieje siê znajdŸ se,
++ mówi, jak¹œ Aniê, bo ja tobie mówiê nie.
+\ No newline at end of file
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..e69de29
+commit 83c7d1e416a66f38dbf24f7bc498c606546b7ab5
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:43:33 2021 +0200
+
+    przeniesienie zwrotki3 i zastÄ…pienie nazwÄ… zwrotka-3
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+index e69de29..95f5b27 100644
+--- a/zwrotka-3.txt
++++ b/zwrotka-3.txt
+@@ -0,0 +1,2 @@
++3.Jest Halina, jest Marysia to siê umów z któr¹ chcesz
++ ja zajêta jestem dzisiaj i za miesi¹c bêdê te¿.
+\ No newline at end of file
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..e69de29
+commit 1d22f6bce9527576d8f2adc9ea03d67aaa966347
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:47:13 2021 +0200
+
+    przeniesienie zwrotki4 i zastÄ…pienie nazwÄ… zwrotka-4
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+index e69de29..26f986b 100644
+--- a/zwrotka-4.txt
++++ b/zwrotka-4.txt
+@@ -0,0 +1,3 @@
++
++ 4.Wci¹¿ mnie zwodzi i czaruje r¹czk¹ kiwa,
++ daje znak oczkiem mruga, obiecuje, a ja œpiewam tylko tak. 
+\ No newline at end of file
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..e69de29
