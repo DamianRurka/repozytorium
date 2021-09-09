@@ -1,0 +1,307 @@
+commit 52122ffe4a02776e3395f2f8b55c91589eab64cf
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 20:00:31 2021 +0200
+
+    usuniÄ™to 4 pliki z powtarzajÄ…cym siÄ™ refrenem ,w pliku piosenka.txt zamieniono nazwy tych plikÃ³w na refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 48fb40d..01c0b12 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,16 +2,16 @@ refren-1
+  
+ zwrotka-1 
+ 
+-refren-2
++refren-1
+  
+ zwrotka-2
+  
+-refren-3
++refren-1
+  
+ zwrotka-3
+  
+-refren-4
++refren-1
+ 
+ zwrotka-4
+ 
+-refren-5
+\ No newline at end of file
++refren-1
+\ No newline at end of file
+
+commit 8917c8909324a1fad560d82ef715297cb0faaf3f
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 18:35:56 2021 +0200
+
+    namieszaÅ‚em ale powrÃ³ciÅ‚em do momentu w ktÃ³rym usunÄ…Å‚em 1linie refrenu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 1b45857..48fb40d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -14,5 +14,4 @@ refren-4
+ 
+ zwrotka-4
+ 
+-RefMarta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+- Marta, tylko Marta bez niej ¿ycie traci smak
+\ No newline at end of file
++refren-5
+\ No newline at end of file
+
+commit 112f4743248452b7dd1efbefe5afa170e70f6e74
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 18:26:58 2021 +0200
+
+    cofniÄ™cie zmiany
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 48fb40d..1b45857 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -14,4 +14,5 @@ refren-4
+ 
+ zwrotka-4
+ 
+-refren-5
+\ No newline at end of file
++RefMarta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
++ Marta, tylko Marta bez niej ¿ycie traci smak
+\ No newline at end of file
+
+commit 2b02c94f6da3005fabd5f8868fb89c4cefd79e83
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:49:22 2021 +0200
+
+    przeniesienie refrenu5 i zastÄ…pienie nazwÄ… refren-5
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 1b45857..48fb40d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -14,5 +14,4 @@ refren-4
+ 
+ zwrotka-4
+ 
+-RefMarta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+- Marta, tylko Marta bez niej ¿ycie traci smak
+\ No newline at end of file
++refren-5
+\ No newline at end of file
+
+commit 1d22f6bce9527576d8f2adc9ea03d67aaa966347
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:47:13 2021 +0200
+
+    przeniesienie zwrotki4 i zastÄ…pienie nazwÄ… zwrotka-4
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 5e8e5d2..1b45857 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -12,8 +12,7 @@ zwrotka-3
+  
+ refren-4
+ 
+- 4.Wci¹¿ mnie zwodzi i czaruje r¹czk¹ kiwa,
+- daje znak oczkiem mruga, obiecuje, a ja œpiewam tylko tak. 
++zwrotka-4
+ 
+ RefMarta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+  Marta, tylko Marta bez niej ¿ycie traci smak
+\ No newline at end of file
+
+commit 511215eead216cc31cc4592196ceb82aa4aec795
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:45:28 2021 +0200
+
+    przeniesienie refrenu4 i zastÄ…pienie nazwÄ… refren-4
+
+diff --git a/piosenka.txt b/piosenka.txt
+index fc7716b..5e8e5d2 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -10,8 +10,7 @@ refren-3
+  
+ zwrotka-3
+  
+-Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+- Marta, tylko Marta bez niej ¿ycie traci smak.
++refren-4
+ 
+  4.Wci¹¿ mnie zwodzi i czaruje r¹czk¹ kiwa,
+  daje znak oczkiem mruga, obiecuje, a ja œpiewam tylko tak. 
+
+commit 83c7d1e416a66f38dbf24f7bc498c606546b7ab5
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:43:33 2021 +0200
+
+    przeniesienie zwrotki3 i zastÄ…pienie nazwÄ… zwrotka-3
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e38222e..fc7716b 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,8 +8,7 @@ zwrotka-2
+  
+ refren-3
+  
+-3.Jest Halina, jest Marysia to siê umów z któr¹ chcesz
+- ja zajêta jestem dzisiaj i za miesi¹c bêdê te¿.
++zwrotka-3
+  
+ Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+  Marta, tylko Marta bez niej ¿ycie traci smak.
+
+commit e94bc28f019ae95144e947ce9392612ade3deaf2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:41:13 2021 +0200
+
+    przeniesienie refrenu3 i zastÄ…pienie nazwÄ… refren-3
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2ddca10..e38222e 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,8 +6,7 @@ refren-2
+  
+ zwrotka-2
+  
+-Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+- Marta, tylko Marta bez niej ¿ycie traci smak.
++refren-3
+  
+ 3.Jest Halina, jest Marysia to siê umów z któr¹ chcesz
+  ja zajêta jestem dzisiaj i za miesi¹c bêdê te¿.
+
+commit 8007378c13e333d2bb291e1434c3c82f9edb8066
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:38:49 2021 +0200
+
+    przeniesienie zwrotki2 i zastÄ…pienie nazwÄ… zwrotka-2
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 6a9ebc2..2ddca10 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,8 +4,7 @@ zwrotka-1
+ 
+ refren-2
+  
+-2.Gdy j¹ proszê o spotkanie ona ze mnie œmieje siê znajdŸ se,
+- mówi, jak¹œ Aniê, bo ja tobie mówiê nie.
++zwrotka-2
+  
+ Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+  Marta, tylko Marta bez niej ¿ycie traci smak.
+
+commit 4fcb90f9aa58406e0b9589d4677e19cfac3de9bc
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:36:28 2021 +0200
+
+    przeniesienie refrenu2 i zastÄ…pienie nazwÄ… refren-2
+
+diff --git a/piosenka.txt b/piosenka.txt
+index c5c5953..6a9ebc2 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,8 +2,7 @@ refren-1
+  
+ zwrotka-1 
+ 
+-Ref.Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+- Marta, tylko Marta bez niej ¿ycie traci smak.
++refren-2
+  
+ 2.Gdy j¹ proszê o spotkanie ona ze mnie œmieje siê znajdŸ se,
+  mówi, jak¹œ Aniê, bo ja tobie mówiê nie.
+
+commit 03c61a22f531179f21fdb4dc3bc2ac9c443e493a
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:33:45 2021 +0200
+
+    przeniesienie zwrotki1 i zastÄ…pienienazwÄ… zwrotka-1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index b98a0c3..c5c5953 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,7 +1,6 @@
+ refren-1
+  
+-1.Gdzieœ pozna³em tê dziewczynê œliczne cia³o,
+- w oczach miód dziewczê Marta ma na imiê dajê s³owo, istny cud. 
++zwrotka-1 
+ 
+ Ref.Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
+  Marta, tylko Marta bez niej ¿ycie traci smak.
+
+commit 9c4267e4744d5666dfee7e0dfb78132d2bf72be2
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:27:52 2021 +0200
+
+    przeniesienie refrenu1 z pliku piosenka.txt do pliku refren-1 i zastÄ…pienie go nazwÄ… pliku:refren-1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 77d2c7e..b98a0c3 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,5 +1,4 @@
+-Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta, Marta,
+- tylko Marta bez niej ¿ycie traci smak.
++refren-1
+  
+ 1.Gdzieœ pozna³em tê dziewczynê œliczne cia³o,
+  w oczach miód dziewczê Marta ma na imiê dajê s³owo, istny cud. 
+
+commit 1521f5dd25da3082b578387011ec608c4fc95983
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 17:10:40 2021 +0200
+
+    dodaÅ‚em tekst piosenki do pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e69de29..77d2c7e 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -0,0 +1,26 @@
++Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta, Marta,
++ tylko Marta bez niej ¿ycie traci smak.
++ 
++1.Gdzieœ pozna³em tê dziewczynê œliczne cia³o,
++ w oczach miód dziewczê Marta ma na imiê dajê s³owo, istny cud. 
++
++Ref.Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
++ Marta, tylko Marta bez niej ¿ycie traci smak.
++ 
++2.Gdy j¹ proszê o spotkanie ona ze mnie œmieje siê znajdŸ se,
++ mówi, jak¹œ Aniê, bo ja tobie mówiê nie.
++ 
++Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
++ Marta, tylko Marta bez niej ¿ycie traci smak.
++ 
++3.Jest Halina, jest Marysia to siê umów z któr¹ chcesz
++ ja zajêta jestem dzisiaj i za miesi¹c bêdê te¿.
++ 
++Ref:Marta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
++ Marta, tylko Marta bez niej ¿ycie traci smak.
++
++ 4.Wci¹¿ mnie zwodzi i czaruje r¹czk¹ kiwa,
++ daje znak oczkiem mruga, obiecuje, a ja œpiewam tylko tak. 
++
++RefMarta, Marta jest uparta Martê zna ju¿ ca³y œwiat Marta,
++ Marta, tylko Marta bez niej ¿ycie traci smak
+\ No newline at end of file
+
+commit 6b30506d0156397825736425447990eb20149b80
+Author: Damian Rurka <gladek123x@gmail.com>
+Date:   Thu Sep 9 16:57:10 2021 +0200
+
+    dodaÅ‚em plik piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..e69de29
